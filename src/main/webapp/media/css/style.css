@@ -1,0 +1,286 @@
+ /* wmx80_css  */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, img, dl, dt, dd, table, th, td, blockquote, fieldset, div, strong, label, em{margin:0; padding:0; border:0;}
+ul, ol, li{list-style:none;}
+input, button{margin:0; font-size:12px; vertical-align:middle;font:12px microsoft yahei, arial, helvetica, sans-serif  arial, helvetica, sans-serif;}
+body{font:12px microsoft yahei, arial, helvetica, sans-serif  arial, helvetica, sans-serif; margin:0; color:#6d6e71;}
+table{border-collapse:collapse; border-spacing:0;}
+a{text-decoration:none; outline:none; color:#6d6e71;-webkit-transition:all 400ms ease-out; -mozilla-transition:all 400ms ease-out; -ms-transition:all 400ms ease-out; -o-transition:all 400ms ease-out; transition:all 400ms ease-out;}
+.cl{height:0; font-size:1px; clear:both; line-height:0;}
+.none{display:none}
+*:focus{outline:none}
+i,em,ins{font-style:normal; text-decoration:none }	
+nav,footer,section,header,article{display:block;}
+.marg{margin:0 auto; width:100%; max-width:400px; min-width:320px}
+.fl{float:left}
+.fr{float:right}
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+::-webkit-scrollbar{width:10px;height:10px;}
+::-webkit-scrollbar-track{background:#f1f1f1;}
+::-webkit-scrollbar-track:hover{background:#eee;}
+::-webkit-scrollbar-thumb{border-radius:10px;background:#b9b9b9;}
+::-webkit-scrollbar-thumb:hover{background:#747474;}
+::-webkit-scrollbar-thumb:active{background:#555;}
+
+/***蓝色头部***/
+header{ height:54px; background:#4db7ad; padding:0 16px;}
+header h1{ float:left; color:#fff; line-height:54px; font-size:18px; font-weight:normal}
+header h1 a.bgh1{ display:block; background:url(../images/arrow_l.gif) no-repeat left center; background-size:20px; padding-left:28px; color:#fff}
+header span{ float:right; margin-top:16px;} 
+header span a{ padding:0 10px;}
+header span i img{ width:21px;}
+header span em img{ width:4px;}
+
+.cont_list{ padding-bottom:60px;}
+.cont_list dl{ padding:0 10px;}
+.cont_list dl a{ display:block; padding:8px 10px; border-bottom:1px solid #c6c6c6;}
+.cont_list dt{ float:left; width:56px; height:56px;}
+.cont_list dt img{ width:100%;}
+.cont_list dd{ padding-left:68px; font-size:13px; color:#a5a5a5}
+.cont_list dd h1{ font-size:16px; font-weight:normal; color:#555; padding:4px 0 8px;}
+.cont_list .engtk{ padding:0 16px; height:56px; background:#333; display:none}
+.cont_list .engtk li{ float:left; width:25%; text-align:center; position:relative}
+.cont_list .engtk li a{ display:block; padding:0 !important}
+.cont_list .engtk li i{ display:block; padding:3px 0;} 
+.cont_list .engtk li b{ display:block; width:1px; height:32px; overflow:hidden; background:#717171; position:absolute; right:0px; top:12px}
+.cont_list .engtk li em{ display:block; color:#fff; font-size:12px;}
+.cont_list .engtk li img{ width:24px;}
+
+/****底部菜单*****/
+.footmenu{ height:55px; width:100%; position:fixed; bottom:0px; left:0px;}
+.footmenu li{ width:19%; float:left; background:#4db7ad; text-align:center; height:55px; cursor:pointer}
+.footmenu li img{ width:24px;}
+.footmenu li.center{ width:24%; background:#ff7143}
+.footmenu li.center img{ width:25px; margin-top:8px}
+.footmenu li em{ display:block; padding:5px 0 1px}
+.footmenu li i{ color:#fff; font-size:13px;}
+.footmenu li i.active{ color:#ffff8d}
+.gray_bg{ width:100%; height:100%; position:fixed; background:#fff; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity: 0.7; opacity: 0.7; left:0; top:0; z-index:66; display:none}
+.tkmain{ position:fixed; bottom:20%; left:0; width:90%; padding:0 5%; z-index:99; display:none}
+.tkmain span{ display:block; float:left; width:50%; text-align:center}
+.tkmain span img{ width:66%; max-width:193px;}
+.tkmain span i{ display:block; padding-bottom:6px}
+.tkmain span a{ display:block; width:80%; margin:0 auto; height:32px; line-height:32px; font-size:16px; color:#fff; text-align:center; background:#000; border-radius:6px;}
+
+
+/********证书**********/
+.body_bg{ background:#f2f2f2}
+.certificate{ padding:10px 10px 60px;}
+.cerpart{ margin-top:24px}
+.cerpart span.tle{ display:block; padding-left:13px; height:32px; line-height:25px; color:#fff; font-size:14px;}
+.cerpart span.title{ background:url(../images/title_bg.gif) no-repeat left center; background-size:118px}
+.cerpart span.titles{ background:url(../images/titles_bg.gif) no-repeat left center; background-size:89px}
+.cerpart p{ padding-top:16px; line-height:22px; font-size:13px; color:#434343}
+.slideBox{position:relative; overflow:hidden; margin:0 auto; max-width:480px; }
+.slideBox .hd{position:absolute; height:10px; line-height:10px; bottom:6px; z-index:1; left:50%; margin-left:-25px; background:#f8f8f8; padding-top:6px; border-radius:8px; display:none}
+.slideBox .hd li{display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#333; text-indent:-9999px; overflow:hidden; margin:0 6px;}
+.slideBox .hd li.on{background:#f60;}
+.slideBox .bd{position:relative; z-index:0;}
+.slideBox .bd li{position:relative; text-align:center;}
+.slideBox .bd li img{vertical-align:top; width:100%; }
+.slideBox .bd li a{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+/*******灰色头部*********/
+.bodybg{ background:#e3e7ea}
+.header{ position:relative; height:54px;background:url(../images/top_bg.gif) repeat-x; background-size:1px}
+.header h1{ display:block; text-align:center; height:54px; line-height:54px; color:#545454; font-size:20px; font-weight:normal;}
+.header em{ display:block; position:absolute; width:20px; height:20px; top:20px; left:12px;}
+.header em img{ width:100%}
+.header i{ display:block; width:50px; height:34px; position:absolute; top:10px; right:12px; line-height:34px}
+.header i a{ display:block; background:#4db6ac; color:#fff; text-align:center; font-size:15px; border-radius:4px;}
+/*******向学霸提问*********/
+.stu_main{ padding:10px;}
+.stu_main .zsmc{ padding:0px 10px; background:#fff; border-radius:4px; height:44px; overflow:hidden}
+.zsmc label{ font-size:15px; line-height:44px;}
+.zsmc .webtxt{ width:70%; border:none; font-size:12px; height:20px; padding-left:6px; color:#6d6e71}
+.lymore{ padding:10px 10px 10px 92px;  min-height:72px;border-radius:3px; margin-top:10px}
+.lymore.lst{background:#fff url(../images/ls.gif) no-repeat 10px 10px; background-size:72px; }
+.lymore.xbt{background:#fff url(../images/xb.gif) no-repeat 10px 10px; background-size:72px; }
+.lymore .webare{ width:100%; height:72px; border:none; background:none; resize:none; color:#6d6e71; line-height:18px}
+.subtj{ display:block; margin:10px 0 140px;}
+.subtj a{ display:block; width:40%; height:36px; line-height:36px; background:#4db6ac; margin:0 auto; color:#fff; font-size:15px; text-align:center; border-radius:3px;}
+.stu_main p{ margin-bottom:12px; display:block;}
+.stu_main p img{ display:block; width:45%; max-width:273px; margin:0 auto}
+.stu_main p a{ display:block; width:76%; height:36px; line-height:36px; background:#4db6ac; margin:0 auto; color:#fff; font-size:15px; text-align:center; border-radius:3px;}
+
+/*******帮我报名*********/
+.enroll_info{ margin:12px 0; background:#fff; padding-bottom:12px;}
+.enroll_info ul{ border-bottom:1px solid #e3e7ea; padding:0 12px;}
+.enroll_info li{ height:px; border-bottom:1px solid #e0e1e1; height:48px; line-height:48px;}
+.enroll_info li:last-child{ border:none}
+.enroll_info label{ height:48px; line-height:48px; display:block; float:left; font-size:16px; color:#545454}
+.enroll_info .webtxt{ width:60%; background:url(../images/arrow_r.gif) no-repeat right center; background-size:7px; height:20px; padding:0px 16px 0 10px; line-height:20px; margin-right:6px; float:right; margin-top:14px; border:none; font-size:16px; color:#ff7043; text-align:right;}
+.enroll_info .webatn{ border:none; width:50%; display:block; height:36px; line-height:36px; background:#4db6ac; cursor:pointer; color:#fff; font-size:16px; border-radius:4px; margin:12px auto 0;}
+
+.enroll_nemu{ margin-bottom:12px; background:#fff;}
+.enroll_nemu dl{ width:50%; float:left; position:relative}
+.enroll_nemu dl a{ display:block; border:1px solid #e3e7ea; padding:20px 0; height:42px;}
+.enroll_nemu dt{ width:43px; float:left; padding-left:8px; padding-top:9px;}
+.enroll_nemu dt img{ width:100%;}
+.enroll_nemu dd{ padding-left:62px; color:#939393; font-size:12px;}
+.enroll_nemu dd h1{ font-size:14px; color:#545454}
+.enroll_nemu i{ display:block; width:6px; height:6px; border-radius:3px; position:absolute; top:12px; right:12px; background:#f60}
+.enroll_js{ background:#fff;}
+.enroll_js a{ display:block; padding-left:60px; height:46px; background:url(../images/enroll_ico5.png) no-repeat 14px center; background-size:31px; line-height:46px; font-size:16px; color:#545454}
+.footge{ height:66px;}
+
+/*******真题下载*********/
+.download_list{ padding:0px 12px;}
+.download_list dl{ position:relative; margin-top:10px; height:70px; padding:10px; background:#4db6ac; border-radius:8px;}
+.download_list dt{ float:left; width:66px; height:66px;}
+.download_list dt img{ width:100%}
+.download_list dd{ padding-left:78px; padding-right:20px; font-size:12px; color:#b4ece7; margin:3px 0}
+.download_list dd h1{ font-size:15px; line-height:20px; color:#fff; height:40px; display:block; overflow:hidden}
+.download_list i{ position:absolute; display:block; width:13px; height:23px; background:url(../images/arrow_r.png) no-repeat center; background-size:13px; right:8px; top:32px;}
+.download_wen{ padding:20px; line-height:22px; font-size:12px;}
+.download_wen p{ text-indent:2em; color:#737373}
+
+/*******关于我们*********/
+.aboutus span{ text-align:center; display:block; padding:40px 0}
+.aboutus span img{margin:0 20px; width:88px;}
+.aboutus p{ color:#808080; font-size:13px; line-height:24px; display:block; text-align:center}
+.abus_btn{ padding-top:30px}
+.abus_btn a{ width:46%; margin:10px auto; border-radius:4px; text-align:center; height:46px; color:#fff; line-height:46px;background:#4db6ac; font-size:16px; display:block}
+.abus_btn a img{ vertical-align:middle; width:36px; margin-right:12px}
+.abus_foot{ padding:46px 0 20px; text-align:center; font-size:14px; color:#808080}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
